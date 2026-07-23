@@ -3,104 +3,130 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nithesh Ramesh — Robotics & Mechanical Design Engineer</title>
+  <title>Nithesh Ramesh — Robotics & Mechanical Systems Engineer</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <!-- Technical & Clean Modern Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <!-- Ambient Gemini Background Glows -->
-  <div class="ambient-glow glow-1"></div>
-  <div class="ambient-glow glow-2"></div>
+  <!-- Ambient Backdrop -->
+  <div class="ambient-bg">
+    <div class="grid-pattern"></div>
+    <div class="glow-spot spotlight-top"></div>
+    <div class="glow-spot spotlight-bottom"></div>
+  </div>
 
-  <!-- Navbar -->
+  <!-- Navigation -->
   <nav class="navbar">
-    <a href="#" class="nav-brand">
-      <span class="sparkle-icon">✨</span>
-      <span>Nithesh Ramesh</span>
-    </a>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#contact" class="nav-cta">Contact</a></li>
-    </ul>
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <span class="logo-mark">NR</span>
+        <span class="logo-text">Nithesh Ramesh</span>
+      </a>
+      
+      <ul class="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Capabilities</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="mailto:nithesh.23au@kct.ac.in" class="btn btn-sm btn-outline">Contact</a>
+        <a href="Nithesh_Ramesh_Robotics_Design_Resume.docx" download class="btn btn-sm btn-primary">Resume</a>
+      </div>
+    </div>
   </nav>
 
   <!-- Hero Section -->
   <header class="hero">
-    <div class="status-pill fade-in">
-      <span class="sparkle">✨</span> Robotics & Mechanical Design Engineer
-    </div>
-    
-    <h1 class="hero-title fade-in-up">
-      Hello, I'm <span class="gemini-gradient-text">Nithesh.</span><br>
-      I engineer autonomous hardware.
-    </h1>
-
-    <p class="hero-bio fade-in-up delay-1">
-      Automobile Engineering student at Kumaraguru College of Technology (KCT) with 2+ years of R&D in Fusion 360 parametric design, hybrid-material manufacturing, and autonomous robotic ecosystems.
-    </p>
-
-    <div class="hero-actions fade-in-up delay-2">
-      <a href="#projects" class="btn primary-btn">
-        <span>Explore Work</span>
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-      </a>
-      <a href="mailto:nithesh.23au@kct.ac.in" class="btn secondary-btn">Get in Touch</a>
-    </div>
-
-    <!-- Stats Bar -->
-    <div class="stats-grid fade-in-up delay-3">
-      <div class="stat-card">
-        <h3>2+ Yrs</h3>
-        <p>Design and R&D Experience</p>
+    <div class="container">
+      <div class="hero-badge">
+        <span class="status-indicator"></span>
+        <span>Open for Robotics & Mechanical Engineering Roles</span>
       </div>
-      <div class="stat-card">
-        <h3>6-DOF</h3>
-        <p>Industrial Arm</p>
+
+      <h1 class="hero-headline">
+        Engineering Precision <br>
+        <span class="gradient-text">Robotic & Automated Systems</span>
+      </h1>
+
+      <p class="hero-subtext">
+        Automobile Engineering Student at KCT. Specializing in parametric CAD modeling (Fusion 360), kinematic analysis, additive manufacturing, and autonomous mechanical hardware.
+      </p>
+
+      <div class="hero-cta-group">
+        <a href="#projects" class="btn btn-primary">View Engineering Projects</a>
+        <a href="#experience" class="btn btn-secondary">Work Experience</a>
       </div>
-      <div class="stat-card">
-        <h3>24</h3>
-        <p>Robocon Team Lead</p>
-      </div>
-      <div class="stat-card">
-        <h3>8.4</h3>
-        <p>Academic CGPA</p>
+
+      <!-- Quick Metrics Strip -->
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <span class="metric-num">6-DOF</span>
+          <span class="metric-label">Robotic Arm Engineered</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-num">2+ Yrs</span>
+          <span class="metric-label">R&D & Prototyping</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-num">24</span>
+          <span class="metric-label">Robocon Team Members Led</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-num">8.4</span>
+          <span class="metric-label">Academic CGPA</span>
+        </div>
       </div>
     </div>
   </header>
 
   <main>
-    <!-- About Section -->
+    <!-- About / Core Profile -->
     <section id="about" class="section">
-      <h2 class="section-title"><span class="sparkle">✨</span> Core Profile</h2>
-      <div class="about-grid">
-        <div class="gemini-card about-card">
-          <h3>Transforming Digital CAD into Physical Hardware</h3>
-          <p>
-            Specializing in transforming digital CAD models into physical hardware. Experience with reachability studies, 3D printing DFM, and carbon fiber fabrication.
-          </p>
-          <p>
-            Currently pursuing B.E. in Automobile Engineering at <strong>Kumaraguru College of Technology</strong> while leading and designing robotics systems across competitive and industrial domains.
-          </p>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">OVERVIEW</span>
+          <h2>Engineering Profile & Education</h2>
         </div>
 
-        <div class="gemini-card credentials-card">
-          <h3>Credentials & Education</h3>
-          <div class="edu-item">
-            <h4>B.E. Automobile Engineering</h4>
-            <p class="sub">Kumaraguru College of Technology (2023–2027)</p>
-            <span class="badge">CGPA: 8.4 / 10</span>
+        <div class="grid-2col">
+          <div class="pro-card">
+            <h3>Core Engineering Focus</h3>
+            <p>
+              I specialize in bridging mechanical design with autonomous execution. From initial reachability and kinematics studies to selecting materials and optimizing designs for manufacturing (DFM), my focus is on reliability, rigidity, and manufacturability.
+            </p>
+            <div class="focus-tags">
+              <span class="tag">Parametric Modeling</span>
+              <span class="tag">Cinematics & Dynamics</span>
+              <span class="tag">DFM / DFA</span>
+              <span class="tag">Rapid Prototyping</span>
+            </div>
           </div>
-          <hr class="card-divider">
-          <div class="edu-item">
-            <h4>Vice President — NCC Airwing</h4>
-            <p class="sub">National Cadet Corps (2025–2026)</p>
-            <span class="badge">Elite NCC 'C' Certificate Holder</span>
+
+          <div class="pro-card">
+            <h3>Education & Credentials</h3>
+            <div class="timeline-compact">
+              <div class="compact-item">
+                <div class="compact-header">
+                  <strong>B.E. Automobile Engineering</strong>
+                  <span class="badge badge-accent">CGPA: 8.4</span>
+                </div>
+                <p class="compact-sub">Kumaraguru College of Technology | 2023 – 2027</p>
+              </div>
+
+              <div class="compact-item">
+                <div class="compact-header">
+                  <strong>Vice President — NCC Airwing</strong>
+                  <span class="badge">NCC 'C' Cert</span>
+                </div>
+                <p class="compact-sub">National Cadet Corps | 2025 – 2026</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -108,178 +134,166 @@
 
     <!-- Experience Section -->
     <section id="experience" class="section">
-      <h2 class="section-title"><span class="sparkle">✨</span> Experience</h2>
-      <div class="experience-list">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">TRACK RECORD</span>
+          <h2>Work & Leadership Experience</h2>
+        </div>
 
-        <div class="gemini-card exp-card">
-          <div class="exp-header">
-            <div>
+        <div class="experience-list">
+          
+          <div class="exp-row-card">
+            <div class="exp-meta">
+              <span class="exp-date">2024 – PRESENT</span>
+              <span class="exp-org">iQube (KCT Innovation Center)</span>
+            </div>
+            <div class="exp-content">
               <h3>Robotics Design Engineer</h3>
-              <p class="company">iQube (Innovation Center of KCT)</p>
+              <ul class="exp-points">
+                <li>Spearheaded mechanical architecture for industrial automation clients.</li>
+                <li>Designed a custom 6-DOF articulated robotic arm for <strong>Florence Shoe Co.</strong> to automate polyurethane spray coating operations.</li>
+                <li>Performed singularity avoidance and workspace reachability optimizations using Fusion 360 & CAD kinematics.</li>
+              </ul>
             </div>
-            <span class="time-badge">2024 – Present</span>
           </div>
-          <ul class="bullet-list">
-            <li>Lead mechanical design and hardware prototyping for corporate-sponsored automation projects.</li>
-            <li><strong>Automated Shoe Spraying System (Florence Shoe Co.):</strong> Designed a 6-DOF articulated robotic arm to automate manual spraying lines.</li>
-            <li>Executed workspace reachability & singularity studies in Fusion 360 to eliminate dead-zones.</li>
-          </ul>
-        </div>
 
-        <div class="gemini-card exp-card">
-          <div class="exp-header">
-            <div>
-              <h3>Mechanical Design Lead</h3>
-              <p class="company">DD Robocon Team (KCT)</p>
+          <div class="exp-row-card">
+            <div class="exp-meta">
+              <span class="exp-date">2024 – 2026</span>
+              <span class="exp-org">DD Robocon Team</span>
             </div>
-            <span class="time-badge">2024 – 2026</span>
+            <div class="exp-content">
+              <h3>Mechanical Division Lead</h3>
+              <ul class="exp-points">
+                <li>Directed a team of 24 engineers in mechanical design, manufacturing, and dynamic testing for national competitions.</li>
+                <li>Engineered high-accuracy pitching mechanisms and vision-guided turret systems using Jetson platforms.</li>
+                <li>Fabricated custom polyurethane (TPU) tracked drivetrains for high-traction obstacle navigation.</li>
+              </ul>
+            </div>
           </div>
-          <ul class="bullet-list">
-            <li>Promoted to Mechanical Lead managing a 24-member engineering team.</li>
-            <li><strong>Turret Launcher (2025):</strong> Dual-flywheel trajectory pitching system integrated with ZED 2i depth cameras and Jetson Orin Nano targeted control.</li>
-            <li><strong>Autonomous Manipulator (2026):</strong> Pick-and-place manipulator for Tic-Tac-Toe autonomous gameplay using Jetson AGX & Cube Orange autopilot.</li>
-            <li>Developed tracked drivetrains using 3D-printed PETG wheels and flexible TPU tracks.</li>
-          </ul>
-        </div>
 
+        </div>
       </div>
     </section>
 
-    <!-- Projects Section -->
+    <!-- Featured Engineering Projects -->
     <section id="projects" class="section">
-      <h2 class="section-title"><span class="sparkle">✨</span> Featured Projects</h2>
-      <div class="projects-grid">
-
-        <div class="gemini-card project-card">
-          <div class="project-img-wrapper">
-            <img src="images/IMG-20250417-WA0014.jpg" alt="Turret Build">
-          </div>
-          <div class="project-info">
-            <div class="chip">Physical Build</div>
-            <h3>Vision-Guided Turret</h3>
-            <p>Dual-flywheel pitching launcher tested on an omnidirectional 3-wheel holonomic base.</p>
-          </div>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">PORTFOLIO</span>
+          <h2>Featured Hardware Systems</h2>
         </div>
 
-        <div class="gemini-card project-card">
-          <div class="project-img-wrapper">
-            <img src="images/I am Bot-01 v17.png" alt="Turret CAD">
-          </div>
-          <div class="project-info">
-            <div class="chip">Fusion 360</div>
-            <h3>Turret Launcher Mechanism</h3>
-            <p>Full CAD architecture incorporating camera mounts, elevation gears, and lightweight frames.</p>
-          </div>
-        </div>
+        <div class="projects-grid">
 
-        <div class="gemini-card project-card">
-          <div class="project-img-wrapper">
-            <img src="images/AUTONOMOUS  ROBOT v5.png" alt="Autonomous Platform">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="images/IMG-20250417-WA0014.jpg" alt="Vision Turret System">
+            </div>
+            <div class="project-body">
+              <span class="project-category">Hardware Prototype</span>
+              <h3>Vision-Guided Pitching Turret</h3>
+              <p>Physical prototype featuring a multi-axis pitching mechanism integrated onto a holonomic mobile base for precise target tracking.</p>
+            </div>
           </div>
-          <div class="project-info">
-            <div class="chip">Tracked Platform</div>
-            <h3>Autonomous Manipulator</h3>
-            <p>Tracked drivetrain architecture featuring custom TPU treads and a pick-and-place manipulator.</p>
-          </div>
-        </div>
 
-        <div class="gemini-card project-card">
-          <div class="project-img-wrapper">
-            <img src="images/docking_2026-Feb-12_04-27-58AM-000_CustomizedView7819102380_png.png" alt="Collaborative Assembly">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="images/I am Bot-01 v17.png" alt="Turret Assembly CAD">
+            </div>
+            <div class="project-body">
+              <span class="project-category">CAD Assembly</span>
+              <h3>Parametric Turret & Launcher</h3>
+              <p>Fully parametric assembly designed in Fusion 360, featuring optimized mass distribution, standard hardware integration, and gear ratios.</p>
+            </div>
           </div>
-          <div class="project-info">
-            <div class="chip">System Assembly</div>
-            <h3>Dual-Robot Assembly</h3>
-            <p>Mechanical interaction and precision docking mechanism designed for multi-robot tasks.</p>
-          </div>
-        </div>
 
-        <div class="gemini-card project-card">
-          <div class="project-img-wrapper">
-            <img src="images/Screenshot 2026-06-20 142954.png" alt="Hexagonal Omni">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="images/AUTONOMOUS  ROBOT v5.png" alt="Autonomous Tracked Platform">
+            </div>
+            <div class="project-body">
+              <span class="project-category">Robotic Platform</span>
+              <h3>Autonomous Tracked Rover</h3>
+              <p>All-terrain mobile robot utilizing TPU molded tracks and a heavy-duty pick-and-place end effector for payload distribution.</p>
+            </div>
           </div>
-          <div class="project-info">
-            <div class="chip">Chassis CAD</div>
-            <h3>Hexagonal Omni-Drive Base</h3>
-            <p>Lightweight hexagonal chassis optimized for 360° omnidirectional maneuverability.</p>
-          </div>
-        </div>
 
-        <div class="gemini-card project-card">
-          <div class="project-img-wrapper">
-            <img src="images/IMG-20250417-WA0015.jpg" alt="Arc Launcher">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="images/docking_2026-Feb-12_04-27-58AM-000_CustomizedView7819102380_png.png" alt="Collaborative Docking System">
+            </div>
+            <div class="project-body">
+              <span class="project-category">Kinematic Design</span>
+              <h3>Collaborative Docking Mechanism</h3>
+              <p>Precision guidance alignment mechanism built for autonomous multi-robot docking and inter-robot alignment.</p>
+            </div>
           </div>
-          <div class="project-info">
-            <div class="chip">Hardware Prototype</div>
-            <h3>Arc Launcher Mechanism</h3>
-            <p>Precision laser-cut arc guide assembly for consistent ball feeding and flywheel engagement.</p>
-          </div>
-        </div>
 
+        </div>
       </div>
     </section>
 
-    <!-- Skills Section -->
+    <!-- Technical Skills -->
     <section id="skills" class="section">
-      <h2 class="section-title"><span class="sparkle">✨</span> Technical Capabilities</h2>
-      <div class="skills-grid">
-
-        <div class="gemini-card skill-card">
-          <div class="skill-icon">📐</div>
-          <h3>3D CAD & Design</h3>
-          <ul class="pill-list">
-            <li>Fusion 360 (Advanced)</li>
-            <li>SolidWorks</li>
-            <li>AutoCAD</li>
-            <li>Autodesk Inventor</li>
-          </ul>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">CAPABILITIES</span>
+          <h2>Technical Proficiency</h2>
         </div>
 
-        <div class="gemini-card skill-card">
-          <div class="skill-icon">⚙️</div>
-          <h3>Manufacturing & DFM</h3>
-          <ul class="pill-list">
-            <li>3D Printing (PLA, PETG, TPU)</li>
-            <li>Carbon Fiber Layup</li>
-            <li>Sheet Metal & CNC DFM</li>
-          </ul>
-        </div>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>CAD & CAE Software</h3>
+            <ul class="skill-pills">
+              <li>Autodesk Fusion 360</li>
+              <li>SolidWorks</li>
+              <li>AutoCAD</li>
+              <li>Autodesk Inventor</li>
+            </ul>
+          </div>
 
-        <div class="gemini-card skill-card">
-          <div class="skill-icon">📊</div>
-          <h3>Engineering Analysis</h3>
-          <ul class="pill-list">
-            <li>MATLAB & Simulink</li>
-            <li>Topology Optimization</li>
-            <li>Workspace Reachability</li>
-            <li>Singularity Analysis</li>
-          </ul>
-        </div>
+          <div class="skill-group">
+            <h3>Manufacturing & Materials</h3>
+            <ul class="skill-pills">
+              <li>Additive Manufacturing (FDM/SLA)</li>
+              <li>DFM / DFA Principles</li>
+              <li>Composite Layouts (Carbon Fiber)</li>
+              <li>CNC Machining Specs</li>
+            </ul>
+          </div>
 
+          <div class="skill-group">
+            <h3>Analysis & Hardware Integration</h3>
+            <ul class="skill-pills">
+              <li>MATLAB & Simulink</li>
+              <li>Topology Optimization</li>
+              <li>6-DOF Workspace Kinematics</li>
+              <li>Hardware-in-the-Loop Integration</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
   </main>
 
-  <!-- Footer -->
-  <footer id="contact" class="footer">
-    <div class="gemini-card footer-card">
-      <span class="sparkle-lg">✨</span>
-      <h2>Let's build hardware together.</h2>
-      <p>Available for Robotics Design & Mechanical Engineering opportunities.</p>
-      
-      <div class="footer-actions">
-        <a href="mailto:nithesh.23au@kct.ac.in" class="btn primary-btn">
-          nithesh.23au@kct.ac.in
-        </a>
-        <a href="tel:+916382959512" class="btn secondary-btn">+91 6382959512</a>
-      </div>
+  <!-- Footer / Contact -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-card">
+        <h2>Interested in Collaborating?</h2>
+        <p>I am actively seeking full-time and project opportunities in Robotics Design, Mechanical Engineering, and Hardware R&D.</p>
+        
+        <div class="footer-cta-group">
+          <a href="mailto:nithesh.23au@kct.ac.in" class="btn btn-primary">nithesh.23au@kct.ac.in</a>
+          <a href="https://www.linkedin.com/in/nithesh-ramesh-8434a2290" target="_blank" class="btn btn-secondary">LinkedIn Profile</a>
+        </div>
 
-      <div class="footer-links">
-        <a href="https://www.linkedin.com/in/nithesh-ramesh-8434a2290" target="_blank">LinkedIn</a>
-        <span>•</span>
-        <a href="Nithesh_Ramesh_Robotics_Design_Resume.docx" download>Download Resume</a>
-        <span>•</span>
-        <span>Coimbatore, Tamil Nadu, India</span>
+        <div class="footer-bottom">
+          <span>© Nithesh Ramesh</span>
+          <span>Coimbatore, Tamil Nadu, India</span>
+          <a href="Nithesh_Ramesh_Robotics_Design_Resume.docx" download>Download Technical Resume</a>
+        </div>
       </div>
     </div>
   </footer>
